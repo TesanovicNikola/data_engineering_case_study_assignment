@@ -6,7 +6,7 @@ Submission-ready Databricks/IPython notebook implementing Bronze, Silver, and Go
 - `Data_Engineering_Case_Study.ipynb` — all PySpark/SQL DDL, ETL and validations, with Markdown documentation.
 
 ## Run in Databricks Free Edition
-1. Download the public `event.csv` and `item.csv` files from the S3 URLs stated in the notebook.
+1. Download the public `event.csv` and `item.csv` files from the S3 URLs stated in the assignment.
 2. Upload both CSV files to a Unity Catalog volume.
 3. In Databricks Workspace, import `Data_Engineering_Case_Study.ipynb`.
 4. Open the configuration cell and update `CATALOG`, `EVENT_PATH` and `ITEM_PATH` if necessary.
